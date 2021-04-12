@@ -1,0 +1,22 @@
+nav.mat-tab-nav-bar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+
+  background-color: rgb(31, 142, 238);
+  z-index: 999;
+}
+
+div.mat-tab-links > a {
+  color: #fff;
+}
+
+.footer-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgb(31, 142, 238);
+  color: #fff;
+  cursor: pointer;
+}

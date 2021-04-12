@@ -1,4 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  // position: relative;
+}
+
+.swiper-pagination-bullet {
+  color: white;
+  white-space: nowrap;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton%7CMontserrat&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Six+Caps);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap;);
+:root {
+  --yellow-color: #ffd65e;
+  --dark-contrast: #1f2c30;
+  --title-size: 10rem;
+  --letter-spacing: 0.275rem;
+  --title-line-height: 14vh;
+  --logo-length: 8.5rem;
+  --mobile-logo-length: 5rem;
+  --yellow-border-width: 8.5vw;
+  --mobile-border-width: 12vw;
+  --horizontal-line-height: 1.22rem;
+}

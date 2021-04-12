@@ -15,9 +15,9 @@ import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
-    AboutComponent,
-    ProjectsComponent,
+    // HomeComponent,
+    // AboutComponent,
+    // ProjectsComponent,
     ContactComponent,
     HeaderComponent,
     FooterComponent

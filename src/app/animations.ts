@@ -18,10 +18,10 @@ export const routeAnimations =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('300ms ease-out', style({ left: '100%' }))
+          animate('.75s ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('.75s ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -42,10 +42,10 @@ export const routeAnimations =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('300ms ease-out', style({ left: '100%' }))
+          animate('.75s ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('.75s ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -66,10 +66,10 @@ export const routeAnimations =
       query(':leave', animateChild()),
       group([
         query(':leave', [
-          animate('300ms ease-out', style({ left: '100%' }))
+          animate('.75s ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('.75s ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -93,7 +93,7 @@ export const routeAnimations =
           animate('200ms ease-out', style({ left: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ left: '0%' }))
+          animate('.75s ease-out', style({ left: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -117,7 +117,7 @@ export const routeAnimations =
           animate('200ms ease-out', style({ right: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ right: '0%' }))
+          animate('.75s ease-out', style({ right: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -141,7 +141,7 @@ export const routeAnimations =
           animate('200ms ease-out', style({ right: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ right: '0%' }))
+          animate('.75s ease-out', style({ right: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),
@@ -165,7 +165,7 @@ export const routeAnimations =
           animate('200ms ease-out', style({ right: '100%' }))
         ]),
         query(':enter', [
-          animate('300ms ease-out', style({ right: '0%' }))
+          animate('.75s ease-out', style({ right: '0%' }))
         ])
       ]),
       query(':enter', animateChild()),

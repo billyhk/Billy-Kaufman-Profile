@@ -15,12 +15,12 @@
   >
   </a>
 </nav> -->
-
 <nav mat-tab-nav-bar>
   <a
     mat-tab-link
     *ngFor="let link of navLinks"
     [routerLink]="link.link"
+    [routerLinkActiveOptions]="{ exact: true }"
     routerLinkActive
     #rla="routerLinkActive"
     [active]="rla.isActive"

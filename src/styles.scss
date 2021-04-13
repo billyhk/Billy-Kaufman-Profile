@@ -31,3 +31,11 @@ body {
   --mobile-border-width: 12vw;
   --horizontal-line-height: 1.22rem;
 }
+
+router-outlet ~ * {
+  position: absolute;
+  height: 100%;
+  min-width: 50%;
+  width: 100%;
+  //z-index: 9;
+}

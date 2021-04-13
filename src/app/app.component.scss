@@ -5,6 +5,11 @@ nav.mat-tab-nav-bar {
 
   background-color: rgb(31, 142, 238);
   z-index: 999;
+  opacity: .5
+}
+
+nav.mat-tab-nav-bar:hover {
+  opacity: 1;
 }
 
 div.mat-tab-links > a {

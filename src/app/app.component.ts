@@ -1,10 +1,14 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { Router } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
+import { routeAnimations } from './animations';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
+  animations: [routeAnimations]
+
 })
 export class AppComponent implements OnInit {
   navLinks: any[];
@@ -39,13 +43,15 @@ export class AppComponent implements OnInit {
         }
     ];
 }
-  // timelineSwiper: any;
 
   public ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class.    
 
 
+  }
+  public prepareRoute(outlet: RouterOutlet) {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData.animation;
   }
 
   title = 'Billy-Kaufman-Profile';

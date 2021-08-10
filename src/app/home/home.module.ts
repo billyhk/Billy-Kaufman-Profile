@@ -1,3 +1,4 @@
+import { MaterialModule } from './../../../../DanWilliamsWebsite/src/app/material.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -11,6 +12,7 @@ import { HomeComponent } from './home.component';
   ],
   imports: [
     CommonModule,
+    MaterialModule,
     HomeRoutingModule
   ],
   exports: [
